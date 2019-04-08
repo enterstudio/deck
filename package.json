@@ -53,7 +53,7 @@
     "jquery": "2.1.4",
     "jquery-textcomplete": "1.6.1",
     "jquery-ui": "~1.10.5",
-    "js-yaml": "^3.8.3",
+    "js-yaml": "^3.13.1",
     "lodash": "^4.16.1",
     "lodash-decorators": "^4.4.1",
     "moment-timezone": "^0.4.0",
