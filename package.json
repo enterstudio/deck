@@ -50,7 +50,7 @@
     "font-awesome": "^4.7.0",
     "formsy-react": "^0.19.5",
     "jasmine": "^2.6.0",
-    "jquery": "2.1.4",
+    "jquery": "3.4.0",
     "jquery-textcomplete": "1.6.1",
     "jquery-ui": "~1.10.5",
     "js-yaml": "^3.8.3",
