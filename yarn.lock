@@ -8,15 +8,27 @@
   dependencies:
     "@types/angular" "*"
 
+"@types/angular-resource@^1.5.14":
+  version "1.5.16"
+  resolved "https://registry.yarnpkg.com/@types/angular-resource/-/angular-resource-1.5.16.tgz#e32faef37c9e0557f5042b081746a666118af547"
+  integrity sha512-EJGp5Qxa+w2AHGW8Y+UUsYTTF+Kh68sFhI9YzXzM7n8pB91VGWynELQ/R3rTVE2xtxyiu+F2WU2mOQC4NUvWrA==
+  dependencies:
+    "@types/angular" "*"
+
 "@types/angular-ui-bootstrap@^0.13.41":
   version "0.13.41"
   resolved "https://registry.yarnpkg.com/@types/angular-ui-bootstrap/-/angular-ui-bootstrap-0.13.41.tgz#dfbe5e6171a8255d7a220bc63baec0f854822d84"
   dependencies:
     "@types/angular" "*"
 
-"@types/angular@*", "@types/angular@1.6.26", "@types/angular@^1.6.15", "@types/angular@^1.6.16":
+"@types/angular@*", "@types/angular@1.6.26", "@types/angular@^1.6.16":
   version "1.6.26"
   resolved "https://registry.yarnpkg.com/@types/angular/-/angular-1.6.26.tgz#a96cccef648de0bf7435f3b9bad13f2430719305"
+
+"@types/angular@>=1.5.0", "@types/angular@^1.6.34":
+  version "1.7.3"
+  resolved "https://registry.yarnpkg.com/@types/angular/-/angular-1.7.3.tgz#138c2f2f688e9dcb413c6052d9483d773ce7f627"
+  integrity sha512-rr40P9yHTlLuY6y+PUfwHeoBWO8uEJTazcs89o83fheyH/b9OZW7p7EsvFMriCPam3p6VSD57zkgn+nAQCvfUw==
 
 "@types/angular@^1.6.28":
   version "1.6.32"
@@ -289,6 +301,11 @@
   version "7.0.5"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-7.0.5.tgz#96a0f0a618b7b606f1ec547403c00650210bfbb7"
 
+"@types/prop-types@*":
+  version "15.7.3"
+  resolved "https://registry.yarnpkg.com/@types/prop-types/-/prop-types-15.7.3.tgz#2ab0d5da2e5815f94b0b9d4b95d1e5f243ab2ca7"
+  integrity sha512-KfRL3PuHmqQLOG+2tGpRO26Ctg+Cq1E01D2DMriKEATHgWLfeNDmq9e29Q9WIky0dQ3NPkd1mzYH8Lm936Z9qw==
+
 "@types/prop-types@^15.5.1":
   version "15.5.1"
   resolved "https://registry.yarnpkg.com/@types/prop-types/-/prop-types-15.5.1.tgz#1ecf52621299e65b855374337fb11fd2d1066fc1"
@@ -299,9 +316,16 @@
   dependencies:
     "@types/react" "*"
 
-"@types/react-dom@^15.5.0", "@types/react-dom@^15.5.1", "@types/react-dom@^15.5.4":
+"@types/react-dom@^15.5.1", "@types/react-dom@^15.5.4":
   version "15.5.4"
   resolved "https://registry.yarnpkg.com/@types/react-dom/-/react-dom-15.5.4.tgz#3f75ba86a2ce9a7d1d9e7d1ee3f186f3a9652d8f"
+  dependencies:
+    "@types/react" "*"
+
+"@types/react-dom@^16.0.2":
+  version "16.9.8"
+  resolved "https://registry.yarnpkg.com/@types/react-dom/-/react-dom-16.9.8.tgz#fe4c1e11dfc67155733dfa6aa65108b4971cb423"
+  integrity sha512-ykkPQ+5nFknnlU6lDd947WbQ6TE3NNzbQAkInC2EKY1qeYdTKp7onFusmYZb+ityzx2YviqT6BXSu+LyWWJwcA==
   dependencies:
     "@types/react" "*"
 
@@ -325,9 +349,13 @@
   version "16.0.5"
   resolved "https://registry.yarnpkg.com/@types/react/-/react-16.0.5.tgz#d713cf67cc211dea20463d2a0b66005c22070c4b"
 
-"@types/react@^15.0.22":
-  version "15.0.35"
-  resolved "https://registry.yarnpkg.com/@types/react/-/react-15.0.35.tgz#4672923cd502d03e1480d03816ebc5a719fb86da"
+"@types/react@^16.0.18":
+  version "16.9.49"
+  resolved "https://registry.yarnpkg.com/@types/react/-/react-16.9.49.tgz#09db021cf8089aba0cdb12a49f8021a69cce4872"
+  integrity sha512-DtLFjSj0OYAdVLBbyjhuV9CdGVHCkHn2R+xr3XkBvK2rS1Y1tkc14XSGjYgm5Fjjr90AxH9tiSzc1pCFMGO06g==
+  dependencies:
+    "@types/prop-types" "*"
+    csstype "^3.0.2"
 
 "@types/source-map@*":
   version "0.5.0"
@@ -517,20 +545,18 @@ angular-ui-sortable@^0.17.0:
   version "0.17.1"
   resolved "https://registry.yarnpkg.com/angular-ui-sortable/-/angular-ui-sortable-0.17.1.tgz#5d41aa911c5045e2080e11a7ca93659c29cb66b8"
 
-angular2react@^2.0.0:
-  version "2.0.2"
-  resolved "https://registry.yarnpkg.com/angular2react/-/angular2react-2.0.2.tgz#f63885ce9f168ea40abd3c9edb1271ed37306375"
+angular2react@^2.1.0:
+  version "2.2.4"
+  resolved "https://registry.yarnpkg.com/angular2react/-/angular2react-2.2.4.tgz#c685a3f92ce6a74ebaab8efec496c8972b7fc291"
+  integrity sha1-xoWj+Szmp066q47+xJbIlyt/wpE=
   dependencies:
-    "@types/angular" "^1.6.15"
-    "@types/react" "^15.0.22"
-    "@types/react-dom" "^15.5.0"
-    angular "^1.6.3"
+    "@types/angular" ">=1.5.0"
+    "@types/react" "^16.0.18"
+    "@types/react-dom" "^16.0.2"
     lodash.kebabcase "^4.1.1"
-    ngimport "^0.6.0"
-    react "^15.4.2"
-    react-dom "^15.4.2"
+    ngimport "^0.8.0"
 
-angular@>=1.5.0, angular@^1.4.0, angular@^1.6.3, angular@~1.6.3:
+angular@>=1.5.0, angular@^1.4.0, angular@~1.6.3:
   version "1.6.4"
   resolved "https://registry.yarnpkg.com/angular/-/angular-1.6.4.tgz#03b7b15c01a0802d7e2cf593240e604054dc77fb"
 
@@ -1843,7 +1869,7 @@ create-hmac@^1.1.0, create-hmac@^1.1.2:
     create-hash "^1.1.0"
     inherits "^2.0.1"
 
-create-react-class@^15.5.2, create-react-class@^15.6.0:
+create-react-class@^15.5.2:
   version "15.6.0"
   resolved "https://registry.yarnpkg.com/create-react-class/-/create-react-class-15.6.0.tgz#ab448497c26566e1e29413e883207d57cfe7bed4"
   dependencies:
@@ -2047,6 +2073,11 @@ cssstats@^3.1.0:
     postcss "^5.2.5"
     postcss-safe-parser "^2.0.0"
     specificity "^0.3.0"
+
+csstype@^3.0.2:
+  version "3.0.3"
+  resolved "https://registry.yarnpkg.com/csstype/-/csstype-3.0.3.tgz#2b410bbeba38ba9633353aff34b05d9755d065f8"
+  integrity sha512-jPl+wbWPOWJ7SXsWyqGRk3lGecbar0Cb0OvZF/r/ZU011R4YqiRehgkQ9p4eQfo9DSDLqLL3wHwfxeJiuIsNag==
 
 currently-unhandled@^0.4.1:
   version "0.4.1"
@@ -3933,6 +3964,11 @@ js-tokens@^3.0.0:
   version "3.0.1"
   resolved "https://registry.yarnpkg.com/js-tokens/-/js-tokens-3.0.1.tgz#08e9f132484a2c45a30907e9dc4d5567b7f114d7"
 
+"js-tokens@^3.0.0 || ^4.0.0":
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/js-tokens/-/js-tokens-4.0.0.tgz#19203fb59991df98e3a287050d4647cdeaf32499"
+  integrity sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ==
+
 js-yaml@^3.4.3, js-yaml@^3.5.1, js-yaml@^3.8.3:
   version "3.8.4"
   resolved "https://registry.yarnpkg.com/js-yaml/-/js-yaml-3.8.4.tgz#520b4564f86573ba96662af85a8cafa7b4b5a6f6"
@@ -4325,6 +4361,13 @@ loose-envify@^1.0.0, loose-envify@^1.1.0, loose-envify@^1.3.0, loose-envify@^1.3
   dependencies:
     js-tokens "^3.0.0"
 
+loose-envify@^1.4.0:
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/loose-envify/-/loose-envify-1.4.0.tgz#71ee51fa7be4caec1a63839f7e682d8132d30caf"
+  integrity sha512-lyuxPGr/Wfhrlem2CL/UcnUc1zcqKAImBDzukY7Y5F/yQiNdko6+fRLevlw1HgMySw7f611UIY408EtxRSoK3Q==
+  dependencies:
+    js-tokens "^3.0.0 || ^4.0.0"
+
 loud-rejection@^1.0.0:
   version "1.6.0"
   resolved "https://registry.yarnpkg.com/loud-rejection/-/loud-rejection-1.6.0.tgz#5b46f80147edee578870f086d04821cf998e551f"
@@ -4578,6 +4621,14 @@ ngimport@^0.6.0:
     "@types/angular" "^1.6.16"
     "@types/angular-mocks" "^1.5.9"
     angular ">=1.5.0"
+
+ngimport@^0.8.0:
+  version "0.8.0"
+  resolved "https://registry.yarnpkg.com/ngimport/-/ngimport-0.8.0.tgz#55c222a23d102555a649866c5004919f1ea8e408"
+  integrity sha512-ggcmEUcTkprTOsEc55GfJKC3zyXBhOlUCw4dL0tf6PDGm+VxRguAykqkoA6IyMYFKWWck+sT9YIqhTmu3ACQUA==
+  dependencies:
+    "@types/angular" "^1.6.34"
+    "@types/angular-resource" "^1.5.14"
 
 ngtemplate-loader@^1.3.1:
   version "1.3.1"
@@ -5426,7 +5477,22 @@ promise@^7.0.3, promise@^7.1.1:
   dependencies:
     asap "~2.0.3"
 
-prop-types@15.6.0, prop-types@^15.5.7:
+prop-types@15.6.2:
+  version "15.6.2"
+  resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.6.2.tgz#05d5ca77b4453e985d60fc7ff8c859094a497102"
+  integrity sha512-3pboPvLiWD7dkI3qf3KbUe6hKFKa52w+AE0VCqECtf+QHAKgOL37tTaNCnuX1nAAQ4ZhyP+kYVKf8rLmJ/feDQ==
+  dependencies:
+    loose-envify "^1.3.1"
+    object-assign "^4.1.1"
+
+prop-types@^15.5.4, prop-types@^15.5.6, prop-types@^15.5.8:
+  version "15.5.10"
+  resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.5.10.tgz#2797dfc3126182e3a95e3dfbb2e893ddd7456154"
+  dependencies:
+    fbjs "^0.8.9"
+    loose-envify "^1.3.1"
+
+prop-types@^15.5.7:
   version "15.6.0"
   resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.6.0.tgz#ceaf083022fc46b4a35f69e13ef75aed0d639856"
   dependencies:
@@ -5434,12 +5500,14 @@ prop-types@15.6.0, prop-types@^15.5.7:
     loose-envify "^1.3.1"
     object-assign "^4.1.1"
 
-prop-types@^15.5.10, prop-types@^15.5.4, prop-types@^15.5.6, prop-types@^15.5.8:
-  version "15.5.10"
-  resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.5.10.tgz#2797dfc3126182e3a95e3dfbb2e893ddd7456154"
+prop-types@^15.6.2:
+  version "15.7.2"
+  resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.7.2.tgz#52c41e75b8c87e72b9d9360e0206b99dcbffa6c5"
+  integrity sha512-8QQikdH7//R2vurIJSutZ1smHYTcLpRWEOlHnzcWHmBYrOGUysKwSsrC89BCiFj3CbrfJ/nXFdJepOVrY1GCHQ==
   dependencies:
-    fbjs "^0.8.9"
-    loose-envify "^1.3.1"
+    loose-envify "^1.4.0"
+    object-assign "^4.1.1"
+    react-is "^16.8.1"
 
 proxy-addr@~1.1.3:
   version "1.1.4"
@@ -5574,27 +5642,19 @@ react-bootstrap@^0.31.0:
     uncontrollable "^4.1.0"
     warning "^3.0.0"
 
-react-dom@15.6.2:
-  version "15.6.2"
-  resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-15.6.2.tgz#41cfadf693b757faf2708443a1d1fd5a02bef730"
+react-dom@16.5.0:
+  version "16.5.0"
+  resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-16.5.0.tgz#57704e5718669374b182a17ea79a6d24922cb27d"
+  integrity sha512-qgsQdjFH54pQ1AGLCBKsqjPxib4Pnp+cOsNxGPlkHn5YnsSt43sBvHSif6FheY7NMMS6HPeSJOxXf6ECanjacA==
   dependencies:
-    fbjs "^0.8.9"
     loose-envify "^1.1.0"
-    object-assign "^4.1.0"
-    prop-types "^15.5.10"
+    object-assign "^4.1.1"
+    prop-types "^15.6.2"
+    schedule "^0.3.0"
 
 react-dom@^0.14.8:
   version "0.14.9"
   resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-0.14.9.tgz#05064a3dcf0fb1880a3b2bfc9d58c55d8d9f6293"
-
-react-dom@^15.4.2:
-  version "15.6.1"
-  resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-15.6.1.tgz#2cb0ed4191038e53c209eb3a79a23e2a4cf99470"
-  dependencies:
-    fbjs "^0.8.9"
-    loose-envify "^1.1.0"
-    object-assign "^4.1.0"
-    prop-types "^15.5.10"
 
 react-ga@^2.1.2:
   version "2.2.0"
@@ -5610,6 +5670,18 @@ react-input-autosize@^1.1.3:
   dependencies:
     create-react-class "^15.5.2"
     prop-types "^15.5.8"
+
+react-input-autosize@^2.1.2:
+  version "2.2.2"
+  resolved "https://registry.yarnpkg.com/react-input-autosize/-/react-input-autosize-2.2.2.tgz#fcaa7020568ec206bc04be36f4eb68e647c4d8c2"
+  integrity sha512-jQJgYCA3S0j+cuOwzuCd1OjmBmnZLdqQdiLKRYrsMMzbjUrVDS5RvJUDwJqA7sKuksDuzFtm6hZGKFu7Mjk5aw==
+  dependencies:
+    prop-types "^15.5.8"
+
+react-is@^16.8.1:
+  version "16.13.1"
+  resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
+  integrity sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==
 
 react-overlays@^0.7.0:
   version "0.7.0"
@@ -5627,7 +5699,16 @@ react-prop-types@^0.4.0:
   dependencies:
     warning "^3.0.0"
 
-react-select@^1.0.0-rc.2, react-select@^1.0.0-rc.5:
+react-select@^1.0.0:
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/react-select/-/react-select-1.3.0.tgz#1828ad5bf7f3e42a835c7e2d8cb13b5c20714876"
+  integrity sha512-g/QAU1HZrzSfxkwMAo/wzi6/ezdWye302RGZevsATec07hI/iSxcpB1hejFIp7V63DJ8mwuign6KmB3VjdlinQ==
+  dependencies:
+    classnames "^2.2.4"
+    prop-types "^15.5.8"
+    react-input-autosize "^2.1.2"
+
+react-select@^1.0.0-rc.2:
   version "1.0.0-rc.5"
   resolved "https://registry.yarnpkg.com/react-select/-/react-select-1.0.0-rc.5.tgz#9d316f252b1adc372ddb5cdf1f119c6b7cfdb5d6"
   dependencies:
@@ -5683,15 +5764,15 @@ react2angular@^2.0.0:
     lodash.frompairs "^4.0.1"
     ngcomponent "^3.0.2"
 
-react@15.6.2:
-  version "15.6.2"
-  resolved "https://registry.yarnpkg.com/react/-/react-15.6.2.tgz#dba0434ab439cfe82f108f0f511663908179aa72"
+react@16.5.0:
+  version "16.5.0"
+  resolved "https://registry.yarnpkg.com/react/-/react-16.5.0.tgz#f2c1e754bf9751a549d9c6d9aca41905beb56575"
+  integrity sha512-nw/yB/L51kA9PsAy17T1JrzzGRk+BlFCJwFF7p+pwVxgqwPjYNeZEkkH7LXn9dmflolrYMXLWMTkQ77suKPTNQ==
   dependencies:
-    create-react-class "^15.6.0"
-    fbjs "^0.8.9"
     loose-envify "^1.1.0"
-    object-assign "^4.1.0"
-    prop-types "^15.5.10"
+    object-assign "^4.1.1"
+    prop-types "^15.6.2"
+    schedule "^0.3.0"
 
 react@^0.14.8:
   version "0.14.9"
@@ -5699,16 +5780,6 @@ react@^0.14.8:
   dependencies:
     envify "^3.0.0"
     fbjs "^0.6.1"
-
-react@^15.4.2:
-  version "15.6.1"
-  resolved "https://registry.yarnpkg.com/react/-/react-15.6.1.tgz#baa8434ec6780bde997cdc380b79cd33b96393df"
-  dependencies:
-    create-react-class "^15.6.0"
-    fbjs "^0.8.9"
-    loose-envify "^1.1.0"
-    object-assign "^4.1.0"
-    prop-types "^15.5.10"
 
 read-cache@^1.0.0:
   version "1.0.0"
@@ -6094,6 +6165,13 @@ safe-buffer@^5.0.1:
 sax@~1.2.1:
   version "1.2.2"
   resolved "https://registry.yarnpkg.com/sax/-/sax-1.2.2.tgz#fd8631a23bc7826bef5d871bdb87378c95647828"
+
+schedule@^0.3.0:
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/schedule/-/schedule-0.3.0.tgz#1be2ab2fc2e768536269ce7326efb478d6c045e8"
+  integrity sha512-20+1KVo517sR7Nt+bYBN8a+bEJDKLPEx7Ohtts1kX05E4/HY53YUNuhfkVNItmWAnBYHcpG9vsd2/CJxG+aPCQ==
+  dependencies:
+    object-assign "^4.1.1"
 
 schema-utils@^0.3.0:
   version "0.3.0"
